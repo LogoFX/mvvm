@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0A7D585-0C3A-4E48-AE42-5B08981EEACA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogoFX.Client.Mvvm.Commanding</RootNamespace>
+    <AssemblyName>LogoFX.Client.Mvvm.Commanding.Platform</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET45;NET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EmbedAllSources>true</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\netframework\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFRAMEWORK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Bin\netframework\Release\LogoFX.Client.Mvvm.Commanding.Platform.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\src\ActionCommandExtensions.cs">
+      <Link>ActionCommandExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\src\CanExecuteManager.cs">
+      <Link>CanExecuteManager.cs</Link>
+    </Compile>
+    <Compile Include="..\src\ExecuteCommandAction.cs">
+      <Link>ExecuteCommandAction.cs</Link>
+    </Compile>
+    <Compile Include="..\src\ExecuteNamedCommandAction.cs">
+      <Link>ExecuteNamedCommandAction.cs</Link>
+    </Compile>
+    <Compile Include="..\src\ElementAnalyzer.cs">
+      <Link>ElementAnalyzer.cs</Link>
+    </Compile>
+    <Compile Include="..\src\ElementAnalysisResult.cs">
+      <Link>ElementAnalysisResult.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Extensions.cs">
+      <Link>Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\src\InitializeCanExecuteManagerMiddleware.cs" Link="InitializeCanExecuteManagerMiddleware.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Expression.Blend.Sdk">
+      <Version>1.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="LogoFX.Client.Core" Version="2.2.2" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.2" />
+    <PackageReference Include="Solid.Bootstrapping">
+      <Version>2.3.2</Version>
+    </PackageReference>
+    <PackageReference Include="Solid.Extensibility">
+      <Version>2.3.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Commanding\LogoFX.Client.Mvvm.Commanding.csproj">
+      <Project>{f17b007f-4af8-42cc-a16f-f2ea2741fe41}</Project>
+      <Name>LogoFX.Client.Mvvm.Commanding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Core.Platform\netframework\LogoFX.Client.Mvvm.Core.Platform.NETFramework.csproj">
+      <Project>{bd03b159-9c44-4e27-961b-97a63e383fef}</Project>
+      <Name>LogoFX.Client.Mvvm.Core.Platform.NETFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

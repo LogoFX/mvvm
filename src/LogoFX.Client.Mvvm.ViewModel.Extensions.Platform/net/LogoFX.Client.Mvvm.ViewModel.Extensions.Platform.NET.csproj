@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>LogoFX.Client.Mvvm.ViewModel.Extensions.Platform</AssemblyName>
+    <RootNamespace>LogoFX.Client.Mvvm.ViewModel.Extensions</RootNamespace>
+    <Version>2.2.2</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\net\Release\</OutputPath>
+    <DocumentationFile>..\..\Bin\net\Release\LogoFX.Client.Mvvm.ViewModel.Extensions.Platform.xml</DocumentationFile>
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\src\EditablePagingScreenViewModel.cs" Link="EditablePagingScreenViewModel.cs" />
+    <Compile Include="..\src\EditablePagingScreenViewModel.WithFilter.cs" Link="EditablePagingScreenViewModel.WithFilter.cs" />
+    <Compile Include="..\src\FilterViewModelBase.cs" Link="FilterViewModelBase.cs" />
+    <Compile Include="..\src\IPageInfo.cs" Link="IPageInfo.cs" />
+    <Compile Include="..\src\PagingScreenViewModel.cs" Link="PagingScreenViewModel.cs" />
+    <Compile Include="..\src\PagingScreenViewModelOfT.cs" Link="PagingScreenViewModelOfT.cs" />
+    <Compile Include="..\src\PagingScreenViewModelOfT.WithFilter.cs" Link="PagingScreenViewModelOfT.WithFilter.cs" />
+    <Compile Include="..\src\VirtualPagingItemListViewModel.cs" Link="VirtualPagingItemListViewModel.cs" />
+    <Compile Include="..\src\VirtualPagingItemListViewModel.WithSelection.cs" Link="VirtualPagingItemListViewModel.WithSelection.cs" />
+    <Compile Include="..\src\VirtualPagingItemViewModel.cs" Link="VirtualPagingItemViewModel.cs" />
+    <Compile Include="..\src\VirtualPagingScreenViewModel.cs" Link="VirtualPagingScreenViewModel.cs" />
+    <Compile Include="..\src\VirtualPagingScreenViewModel.WithFilter.cs" Link="VirtualPagingScreenViewModel.WithFilter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Commanding\LogoFX.Client.Mvvm.Commanding.csproj" />
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Core.Platform\net\LogoFX.Client.Mvvm.Core.Platform.NET.csproj" />
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Extensions\LogoFX.Client.Mvvm.ViewModel.Extensions.csproj" />
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Shared\LogoFX.Client.Mvvm.ViewModel.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro">
+      <HintPath>..\..\lib\Caliburn.Micro\netstandard1.0\Caliburn.Micro.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

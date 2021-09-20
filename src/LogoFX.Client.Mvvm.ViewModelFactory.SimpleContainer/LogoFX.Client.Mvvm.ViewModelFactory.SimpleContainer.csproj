@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Version>2.2.2</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\Bin\netstandard\Release</OutputPath>
+    <DocumentationFile>..\Bin\netstandard\Release\LogoFX.Client.Mvvm.ViewModelFactory.SimpleContainer.xml</DocumentationFile>
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Practices.IoC" Version="2.2.2" />
+    <PackageReference Include="Solid.Bootstrapping" Version="2.3.2" />
+    <PackageReference Include="Solid.Extensibility" Version="2.3.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogoFX.Client.Mvvm.ViewModelFactory\LogoFX.Client.Mvvm.ViewModelFactory.csproj" />
+  </ItemGroup>
+</Project>

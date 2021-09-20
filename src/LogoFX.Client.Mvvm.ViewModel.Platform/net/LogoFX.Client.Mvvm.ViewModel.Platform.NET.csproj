@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>LogoFX.Client.Mvvm.ViewModel.Platform</AssemblyName>
+    <RootNamespace>LogoFX.Client.Mvvm.ViewModel</RootNamespace>
+    <Version>2.2.2</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\net\Release\</OutputPath>
+    <DocumentationFile>..\..\Bin\net\Release\LogoFX.Client.Mvvm.ViewModel.Platform.xml</DocumentationFile>
+    <DefineConstants>TRACE;NET</DefineConstants>
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\src\WrappingCollectionExtensions.cs" Link="WrappingCollectionExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel\LogoFX.Client.Mvvm.ViewModel.csproj" />
+  </ItemGroup>
+</Project>

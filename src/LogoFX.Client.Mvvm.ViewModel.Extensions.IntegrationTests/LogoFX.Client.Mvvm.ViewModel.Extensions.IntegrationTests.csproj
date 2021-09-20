@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseWPF>true</UseWPF>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\Bin\Tests</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions">
+      <Version>5.10.3</Version>
+    </PackageReference>
+    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.2" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer"  Version="2.2.2" />    
+    <PackageReference Include="LogoFX.Client.Mvvm.Model"  Version="2.2.2" />    
+    <PackageReference Include="LogoFX.Client.Testing.Integration.xUnit" Version="2.2.2" />    
+    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <PackageReference Include="xunit.core">
+      <Version>2.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="xunit.runner.visualstudio">
+      <Version>2.4.1</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\LogoFX.Client.Mvvm.ViewModel.Extensions.Tests\DataGenerator.cs">
+      <Link>DataGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\LogoFX.Client.Mvvm.ViewModel.Extensions.Tests\NameValidationAttribute.cs">
+      <Link>NameValidationAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\LogoFX.Client.Mvvm.ViewModel.Extensions.Tests\SimpleEditableModel.cs">
+      <Link>SimpleEditableModel.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogoFX.Client.Mvvm.ViewModel.Extensions\LogoFX.Client.Mvvm.ViewModel.Extensions.csproj" />
+    <ProjectReference Include="..\LogoFX.Client.Mvvm.ViewModel.Services\LogoFX.Client.Mvvm.ViewModel.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="xunit.runner.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

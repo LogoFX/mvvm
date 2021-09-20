@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7E89E24-85A4-4B72-B726-AF623A039E3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogoFX.Client.Mvvm.ViewModel.Extensions</RootNamespace>
+    <AssemblyName>LogoFX.Client.Mvvm.ViewModel.Extensions.Platform</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\netframework\Release\</OutputPath>
+    <DefineConstants>TRACE;NET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Bin\netframework\Release\LogoFX.Client.Mvvm.ViewModel.Extensions.Platform.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Caliburn.Micro\netstandard1.0\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\src\EditablePagingScreenViewModel.cs">
+      <Link>EditablePagingScreenViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\src\EditablePagingScreenViewModel.WithFilter.cs">
+      <Link>EditablePagingScreenViewModel.WithFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\FilterViewModelBase.cs">
+      <Link>FilterViewModelBase.cs</Link>
+    </Compile>
+    <Compile Include="..\src\IPageInfo.cs">
+      <Link>IPageInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\src\PagingScreenViewModel.cs">
+      <Link>PagingScreenViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\src\PagingScreenViewModelOfT.cs">
+      <Link>PagingScreenViewModelOfT.cs</Link>
+    </Compile>
+    <Compile Include="..\src\PagingScreenViewModelOfT.WithFilter.cs">
+      <Link>PagingScreenViewModelOfT.WithFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\VirtualPagingItemListViewModel.cs">
+      <Link>VirtualPagingItemListViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\src\VirtualPagingItemListViewModel.WithSelection.cs">
+      <Link>VirtualPagingItemListViewModel.WithSelection.cs</Link>
+    </Compile>
+    <Compile Include="..\src\VirtualPagingItemViewModel.cs">
+      <Link>VirtualPagingItemViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\src\VirtualPagingScreenViewModel.cs">
+      <Link>VirtualPagingScreenViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\src\VirtualPagingScreenViewModel.WithFilter.cs">
+      <Link>VirtualPagingScreenViewModel.WithFilter.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Commanding\LogoFX.Client.Mvvm.Commanding.csproj">
+      <Project>{04a1fc3f-f956-4e69-81f0-c2a3fcf0b0a4}</Project>
+      <Name>LogoFX.Client.Mvvm.Commanding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Core.Platform\netframework\LogoFX.Client.Mvvm.Core.Platform.NETFramework.csproj">
+      <Project>{bd03b159-9c44-4e27-961b-97a63e383fef}</Project>
+      <Name>LogoFX.Client.Mvvm.Core.Platform.NETFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Model.Contracts\LogoFX.Client.Mvvm.Model.Contracts.csproj">
+      <Project>{3663d1df-87e7-4e39-8d45-d77c2391ea61}</Project>
+      <Name>LogoFX.Client.Mvvm.Model.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Model\LogoFX.Client.Mvvm.Model.csproj">
+      <Project>{b12ccea4-5d5e-4850-9a10-b85a6f67d5d1}</Project>
+      <Name>LogoFX.Client.Mvvm.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Contracts\LogoFX.Client.Mvvm.ViewModel.Contracts.csproj">
+      <Project>{5f105d7a-2f5f-4e1b-9cc1-985e160f04d7}</Project>
+      <Name>LogoFX.Client.Mvvm.ViewModel.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Extensions\LogoFX.Client.Mvvm.ViewModel.Extensions.csproj">
+      <Project>{26bd2c57-2730-4d9b-ae7c-341ee5b56a4a}</Project>
+      <Name>LogoFX.Client.Mvvm.ViewModel.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Shared\LogoFX.Client.Mvvm.ViewModel.Shared.csproj">
+      <Project>{87896fea-3913-4895-adeb-902cd7b1fec0}</Project>
+      <Name>LogoFX.Client.Mvvm.ViewModel.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel\LogoFX.Client.Mvvm.ViewModel.csproj">
+      <Project>{bbba33dc-eeff-4a30-adff-4cad15ecf1ff}</Project>
+      <Name>LogoFX.Client.Mvvm.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Core" Version="2.2.2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>LogoFX.Client.Mvvm.Core.Platform</AssemblyName>
+    <RootNamespace>LogoFX.Client.Mvvm.Core</RootNamespace>
+    <Version>2.2.2</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\netcore\Release\</OutputPath>
+    <DocumentationFile>..\..\Bin\netcore\Release\LogoFX.Client.Mvvm.Core.Platform.xml</DocumentationFile>
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\src\BindNotifier.cs" Link="BindNotifier.cs" />
+    <Compile Include="..\src\NotificationHelperDp.cs" Link="NotificationHelperDp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Core" Version="2.2.2" />
+  </ItemGroup>
+</Project>

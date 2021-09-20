@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>LogoFX.Client.Mvvm.ViewModel.Services.Core</id>
+    <version>2.2.2</version>
+    <title>LogoFX.Client.Mvvm.ViewModel.Services.Core</title>
+    <authors>Gennady Verdel,Dmitry Bublik</authors>
+    <owners>Gennady Verdel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/LogoFX/mvvm/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogoFX/mvvm</projectUrl>
+    <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
+    <description>LogoFX Client Mvvm ViewModel Services Core containing commonly used cross-platform UI services.</description>
+    <summary>LogoFX Client Mvvm ViewModel Services Core containing commonly used cross-platform UI services.</summary>
+    <releaseNotes>
+    </releaseNotes>
+    <dependencies>
+      <dependency id="Solid.Practices.IoC" version="2.3.2" />
+      <dependency id="Solid.Practices.Middleware" version="2.3.2" />
+      <dependency id="Solid.Bootstrapping" version="2.3.2" />
+      <dependency id="Solid.Extensibility" version="2.3.2" />
+      <dependency id="LogoFX.Client.Mvvm.ViewModel.Contracts" version="2.2.2" />
+      <dependency id="LogoFX.Client.Mvvm.ViewModelFactory" version="2.2.2" />
+      <dependency id="LogoFX.Client.Mvvm.ViewModel.Shared" version="2.2.2" />
+    </dependencies>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/mvvm" />
+  </metadata>
+</package>

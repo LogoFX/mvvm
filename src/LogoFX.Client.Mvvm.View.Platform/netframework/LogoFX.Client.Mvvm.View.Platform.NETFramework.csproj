@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CCD7879-DC5F-485C-A54C-AEC4980130EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogoFX.Client.Mvvm.View</RootNamespace>
+    <AssemblyName>LogoFX.Client.Mvvm.View.Platform</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET45</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\netframework\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFRAMEWORK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\bin\netframework\Release\LogoFX.Client.Mvvm.View.Platform.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\src\Controls\HeaderedContentControl.cs">
+      <Link>Controls\HeaderedContentControl.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Controls\InteractionHelper.cs">
+      <Link>Controls\InteractionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Controls\MatrixExtensions.cs">
+      <Link>Controls\MatrixExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Controls\PopupHeaderedContentControl.cs">
+      <Link>Controls\PopupHeaderedContentControl.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Controls\PopupHelper.cs">
+      <Link>Controls\PopupHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Controls\RoutedPropertyChangingEventArgs.cs">
+      <Link>Controls\RoutedPropertyChangingEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Controls\VisualStates.cs">
+      <Link>Controls\VisualStates.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\AddConstantConverter.cs">
+      <Link>Converters\AddConstantConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\AddConverter.cs">
+      <Link>Converters\AddConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\BoolRevertConverter.cs">
+      <Link>Converters\BoolRevertConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\BoolToConstConverter.cs">
+      <Link>Converters\BoolToConstConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\BoolToVisibilityConverter.cs">
+      <Link>Converters\BoolToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\CultureDateTimeConverter.cs">
+      <Link>Converters\CultureDateTimeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\CultureExtensions.cs" Link="Converters\CultureExtensions.cs" />
+    <Compile Include="..\src\Converters\DebugConverter.cs">
+      <Link>Converters\DebugConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\DurationConverter.cs">
+      <Link>Converters\DurationConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\ElementToItemConverter.cs">
+      <Link>Converters\ElementToItemConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\EmptyStringToValueConverter.cs">
+      <Link>Converters\EmptyStringToValueConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\EnumConverter.cs">
+      <Link>Converters\EnumConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\EnumSourceConverter.cs" Link="Converters\EnumSourceConverter.cs" />
+    <Compile Include="..\src\Converters\EnumDescriptionConverter.cs">
+      <Link>Converters\EnumDescriptionConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\EqualsToBooleanConverter.cs">
+      <Link>Converters\EqualsToBooleanConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\EqualsToConverterHelper.cs">
+      <Link>Converters\EqualsToConverterHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\EqualsToVisibilityConverter.cs">
+      <Link>Converters\EqualsToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\ObjectToImageConverter.cs">
+      <Link>Converters\ObjectToImageConverter.cs</Link>
+    </Compile>
+     <Compile Include="..\src\Converters\ImageGet.cs">
+      <Link>Converters\ImageGet.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\IntervalConverter.cs">
+      <Link>Converters\IntervalConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\IsSetToVisibilityConverter.cs">
+      <Link>Converters\IsSetToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\ItemToContextConverter.cs">
+      <Link>Converters\ItemToContextConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\MinDateToTextConverter.cs">
+      <Link>Converters\MinDateToTextConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\MulConstantConverter.cs">
+      <Link>Converters\MulConstantConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\MultiBooleanAndToVisibilityConverter.cs">
+      <Link>Converters\MultiBooleanAndToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\MultiBooleanOrToVisibilityConverter.cs">
+      <Link>Converters\MultiBooleanOrToVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\NegativeConverter.cs">
+      <Link>Converters\NegativeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\NotNullConverter.cs">
+      <Link>Converters\NotNullConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\PercentageFormatConverter.cs">
+      <Link>Converters\PercentageFormatConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\SubConstantConverter.cs">
+      <Link>Converters\SubConstantConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\SupressTwoWayConverter.cs">
+      <Link>Converters\SupressTwoWayConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\TextFormatConverter.cs">
+      <Link>Converters\TextFormatConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Converters\TimeToDoubleConverter.cs">
+      <Link>Converters\TimeToDoubleConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\DependencyProperties\SizeObserver.cs">
+      <Link>DependencyProperties\SizeObserver.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Interactivity\Actions\SetFocusAction.cs">
+      <Link>Interactivity\Actions\SetFocusAction.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Interactivity\Actions\TargetedSetFocusAction.cs">
+      <Link>Interactivity\Actions\TargetedSetFocusAction.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Interactivity\Behaviors\PasswordHelper.cs">
+      <Link>Interactivity\Behaviors\PasswordHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Interactivity\Behaviors\SelectTextOnFocusBehavior.cs">
+      <Link>Interactivity\Behaviors\SelectTextOnFocusBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Interactivity\Behaviors\UpdateSourceOnChangeBehavior.cs">
+      <Link>Interactivity\Behaviors\UpdateSourceOnChangeBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Interactivity\Triggers\XDataTrigger.cs">
+      <Link>Interactivity\Triggers\XDataTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblyCollection.cs">
+      <Link>Localization\AssemblyCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblyLoaderService.cs">
+      <Link>Localization\AssemblyLoaderService.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblyResourceHelperBase.cs">
+      <Link>Localization\AssemblyResourceHelperBase.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblyResourceLoader.cs">
+      <Link>Localization\AssemblyResourceLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblyResourceSaver.cs">
+      <Link>Localization\AssemblyResourceSaver.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblyResourceUtility.cs">
+      <Link>Localization\AssemblyResourceUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\AssemblySaverService.cs">
+      <Link>Localization\AssemblySaverService.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\LocalAssemblyCollection.cs">
+      <Link>Localization\LocalAssemblyCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\LocalizationManager.cs">
+      <Link>Localization\LocalizationManager.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\ResourceCollection.cs">
+      <Link>Localization\ResourceCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\ResourceSetCollection.cs">
+      <Link>Localization\ResourceSetCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Localization\WinRes.cs">
+      <Link>Localization\WinRes.cs</Link>
+    </Compile>
+    <Compile Include="..\src\MarkupExtensions\LocalizedStringMarkupExtension.cs">
+      <Link>MarkupExtensions\LocalizedStringMarkupExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\src\MarkupExtensions\UpdatableMarkupExtension.cs">
+      <Link>MarkupExtensions\UpdatableMarkupExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\src\TriggerActions\ValidationErrorAction.cs">
+      <Link>TriggerActions\ValidationErrorAction.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Util\BindingProxy.cs">
+      <Link>Util\BindingProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Util\InteractivityHelper.cs">
+      <Link>Util\InteractivityHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Util\InteractivityTemplate.cs">
+      <Link>Util\InteractivityTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Util\TreeHelper.cs">
+      <Link>Util\TreeHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Xaml\SharedResourceDictionary.cs">
+      <Link>Xaml\SharedResourceDictionary.cs</Link>
+    </Compile>
+    <Compile Include="Interactivity\Behaviors\SelectorItemBindingBehavior.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.2" />   
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.View\LogoFX.Client.Mvvm.View.csproj">
+      <Project>{5f9a6a47-32f3-4021-8fb3-bf1cda0017d3}</Project>
+      <Name>LogoFX.Client.Mvvm.View</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

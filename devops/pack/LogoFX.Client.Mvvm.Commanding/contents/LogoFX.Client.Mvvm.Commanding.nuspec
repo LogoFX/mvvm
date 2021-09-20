@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LogoFX.Client.Mvvm.Commanding</id>
+    <version>2.2.2</version>
+    <title>LogoFX.Client.Mvvm.Commanding</title>
+    <authors>Gennady Verdel, Vlad Spivak</authors>
+    <owners>Gennady Verdel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/LogoFX/mvvm/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogoFX/mvvm</projectUrl>
+    <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
+    <description>LogoFX Client Mvvm Commanding containing implementation of ICommand with Fluent API.</description>
+    <summary>LogoFX Client Mvvm Commanding containing implementation of ICommand with Fluent API.</summary>
+    <releaseNotes>Added support for .NET Core</releaseNotes>
+    <dependencies>
+      <group>
+        <dependency id="Solid.Practices.Middleware" version="2.3.2" />
+        <dependency id="Solid.Bootstrapping" version="2.3.2" />
+        <dependency id="Solid.Extensibility" version="2.3.2" />
+        <dependency id="LogoFX.Client.Core" version="2.2.2" />
+        <dependency id="LogoFX.Client.Mvvm.Core" version="2.2.2" />
+        <dependency id="LogoFX.Client.Mvvm.Commanding.Core" version="2.2.2" />
+      </group>
+      <group targetFramework="UAP10.0">
+        <dependency id="Microsoft.Xaml.Behaviors.Uwp.Managed" version="2.0.1" />
+      </group>
+    </dependencies>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/mvvm" />
+  </metadata>
+</package>

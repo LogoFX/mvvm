@@ -1,0 +1,114 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>LogoFX.Client.Mvvm.View.Platform</AssemblyName>
+    <RootNamespace>LogoFX.Client.Mvvm.View</RootNamespace>
+    <Version>2.2.2</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;NET</DefineConstants>
+    <OutputPath>..\..\bin\net\Release\</OutputPath>
+    <DocumentationFile>..\..\bin\net\Release\LogoFX.Client.Mvvm.View.Platform.xml</DocumentationFile>
+    <EmbedAllSources>True</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\src\Controls\HeaderedContentControl.cs" Link="Controls\HeaderedContentControl.cs" />
+    <Compile Include="..\src\Controls\InteractionHelper.cs" Link="Controls\InteractionHelper.cs" />
+    <Compile Include="..\src\Controls\MatrixExtensions.cs" Link="Controls\MatrixExtensions.cs" />
+    <Compile Include="..\src\Controls\PopupHeaderedContentControl.cs" Link="Controls\PopupHeaderedContentControl.cs" />
+    <Compile Include="..\src\Controls\PopupHelper.cs" Link="Controls\PopupHelper.cs" />
+    <Compile Include="..\src\Controls\RoutedPropertyChangingEventArgs.cs" Link="Controls\RoutedPropertyChangingEventArgs.cs" />
+    <Compile Include="..\src\Controls\VisualStates.cs" Link="Controls\VisualStates.cs" />
+    <Compile Include="..\src\Converters\AddConstantConverter.cs" Link="Converters\AddConstantConverter.cs" />
+    <Compile Include="..\src\Converters\AddConverter.cs" Link="Converters\AddConverter.cs" />
+    <Compile Include="..\src\Converters\BoolRevertConverter.cs" Link="Converters\BoolRevertConverter.cs" />
+    <Compile Include="..\src\Converters\BoolToConstConverter.cs" Link="Converters\BoolToConstConverter.cs" />
+    <Compile Include="..\src\Converters\BoolToVisibilityConverter.cs" Link="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="..\src\Converters\CultureDateTimeConverter.cs" Link="Converters\CultureDateTimeConverter.cs" />
+    <Compile Include="..\src\Converters\CultureExtensions.cs" Link="Converters\CultureExtensions.cs" />
+    <Compile Include="..\src\Converters\DebugConverter.cs" Link="Converters\DebugConverter.cs" />
+    <Compile Include="..\src\Converters\DurationConverter.cs" Link="Converters\DurationConverter.cs" />
+    <Compile Include="..\src\Converters\ElementToItemConverter.cs" Link="Converters\ElementToItemConverter.cs" />
+    <Compile Include="..\src\Converters\EmptyStringToValueConverter.cs" Link="Converters\EmptyStringToValueConverter.cs" />
+    <Compile Include="..\src\Converters\EnumConverter.cs" Link="Converters\EnumConverter.cs" />
+    <Compile Include="..\src\Converters\EnumSourceConverter.cs" Link="Converters\EnumSourceConverter.cs" />
+    <Compile Include="..\src\Converters\EnumDescriptionConverter.cs" Link="Converters\EnumDescriptionConverter.cs" />
+    <Compile Include="..\src\Converters\EqualsToBooleanConverter.cs" Link="Converters\EqualsToBooleanConverter.cs" />
+    <Compile Include="..\src\Converters\EqualsToConverterHelper.cs" Link="Converters\EqualsToConverterHelper.cs" />
+    <Compile Include="..\src\Converters\EqualsToVisibilityConverter.cs" Link="Converters\EqualsToVisibilityConverter.cs" />
+    <Compile Include="..\src\Converters\ObjectToImageConverter.cs" Link="Converters\ObjectToImageConverter.cs" />
+    <Compile Include="..\src\Converters\ImageGet.cs" Link="Converters\ImageGet.cs" />
+    <Compile Include="..\src\Converters\IntervalConverter.cs" Link="Converters\IntervalConverter.cs" />
+    <Compile Include="..\src\Converters\IsSetToVisibilityConverter.cs" Link="Converters\IsSetToVisibilityConverter.cs" />
+    <Compile Include="..\src\Converters\ItemToContextConverter.cs" Link="Converters\ItemToContextConverter.cs" />
+    <Compile Include="..\src\Converters\MinDateToTextConverter.cs" Link="Converters\MinDateToTextConverter.cs" />
+    <Compile Include="..\src\Converters\MulConstantConverter.cs" Link="Converters\MulConstantConverter.cs" />
+    <Compile Include="..\src\Converters\MultiBooleanAndToVisibilityConverter.cs" Link="Converters\MultiBooleanAndToVisibilityConverter.cs" />
+    <Compile Include="..\src\Converters\MultiBooleanOrToVisibilityConverter.cs" Link="Converters\MultiBooleanOrToVisibilityConverter.cs" />
+    <Compile Include="..\src\Converters\NegativeConverter.cs" Link="Converters\NegativeConverter.cs" />
+    <Compile Include="..\src\Converters\NotNullConverter.cs" Link="Converters\NotNullConverter.cs" />
+    <Compile Include="..\src\Converters\PercentageFormatConverter.cs" Link="Converters\PercentageFormatConverter.cs" />
+    <Compile Include="..\src\Converters\SubConstantConverter.cs" Link="Converters\SubConstantConverter.cs" />
+    <Compile Include="..\src\Converters\SupressTwoWayConverter.cs" Link="Converters\SupressTwoWayConverter.cs" />
+    <Compile Include="..\src\Converters\TextFormatConverter.cs" Link="Converters\TextFormatConverter.cs" />
+    <Compile Include="..\src\Converters\TimeToDoubleConverter.cs" Link="Converters\TimeToDoubleConverter.cs" />
+    <Compile Include="..\src\DependencyProperties\SizeObserver.cs" Link="DependencyProperties\SizeObserver.cs" />
+    <Compile Include="..\src\Interactivity\Actions\SetFocusAction.cs" Link="Interactivity\Actions\SetFocusAction.cs" />
+    <Compile Include="..\src\Interactivity\Actions\TargetedSetFocusAction.cs" Link="Interactivity\Actions\TargetedSetFocusAction.cs" />
+    <Compile Include="..\src\Interactivity\Behaviors\PasswordHelper.cs" Link="Interactivity\Behaviors\PasswordHelper.cs" />
+    <Compile Include="..\src\Interactivity\Behaviors\SelectTextOnFocusBehavior.cs" Link="Interactivity\Behaviors\SelectTextOnFocusBehavior.cs" />
+    <Compile Include="..\src\Interactivity\Behaviors\UpdateSourceOnChangeBehavior.cs" Link="Interactivity\Behaviors\UpdateSourceOnChangeBehavior.cs" />
+    <Compile Include="..\src\Interactivity\Triggers\XDataTrigger.cs" Link="Interactivity\Triggers\XDataTrigger.cs" />
+    <Compile Include="..\src\Localization\AssemblyCollection.cs" Link="Localization\AssemblyCollection.cs" />
+    <Compile Include="..\src\Localization\AssemblyLoaderService.cs" Link="Localization\AssemblyLoaderService.cs" />
+    <Compile Include="..\src\Localization\AssemblyResourceHelperBase.cs" Link="Localization\AssemblyResourceHelperBase.cs" />
+    <Compile Include="..\src\Localization\AssemblyResourceLoader.cs" Link="Localization\AssemblyResourceLoader.cs" />
+    <Compile Include="..\src\Localization\AssemblyResourceSaver.cs" Link="Localization\AssemblyResourceSaver.cs" />
+    <Compile Include="..\src\Localization\AssemblyResourceUtility.cs" Link="Localization\AssemblyResourceUtility.cs" />
+    <Compile Include="..\src\Localization\AssemblySaverService.cs" Link="Localization\AssemblySaverService.cs" />
+    <Compile Include="..\src\Localization\LocalAssemblyCollection.cs" Link="Localization\LocalAssemblyCollection.cs" />
+    <Compile Include="..\src\Localization\LocalizationManager.cs" Link="Localization\LocalizationManager.cs" />
+    <Compile Include="..\src\Localization\ResourceCollection.cs" Link="Localization\ResourceCollection.cs" />
+    <Compile Include="..\src\Localization\ResourceSetCollection.cs" Link="Localization\ResourceSetCollection.cs" />
+    <Compile Include="..\src\Localization\WinRes.cs" Link="Localization\WinRes.cs" />
+    <Compile Include="..\src\MarkupExtensions\LocalizedStringMarkupExtension.cs" Link="MarkupExtensions\LocalizedStringMarkupExtension.cs" />
+    <Compile Include="..\src\MarkupExtensions\UpdatableMarkupExtension.cs" Link="MarkupExtensions\UpdatableMarkupExtension.cs" />
+    <Compile Include="..\src\TriggerActions\ValidationErrorAction.cs" Link="TriggerActions\ValidationErrorAction.cs" />
+    <Compile Include="..\src\Util\BindingProxy.cs" Link="Util\BindingProxy.cs" />
+    <Compile Include="..\src\Util\InteractivityHelper.cs" Link="Util\InteractivityHelper.cs" />
+    <Compile Include="..\src\Util\InteractivityTemplate.cs" Link="Util\InteractivityTemplate.cs" />
+    <Compile Include="..\src\Util\TreeHelper.cs" Link="Util\TreeHelper.cs" />
+    <Compile Include="..\src\Xaml\SharedResourceDictionary.cs" Link="Xaml\SharedResourceDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Converters\" />
+    <Folder Include="DependencyProperties\" />
+    <Folder Include="Interactivity\Actions\" />
+    <Folder Include="Interactivity\Behaviors\" />
+    <Folder Include="Interactivity\Triggers\" />
+    <Folder Include="Localization\" />
+    <Folder Include="MarkupExtensions\" />
+    <Folder Include="Xaml\" />
+    <Folder Include="Util\" />
+    <Folder Include="TriggerActions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.View\LogoFX.Client.Mvvm.View.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions">
+      <HintPath>..\..\Lib\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\..\Lib\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
