@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <Version>2.2.2</Version>
+    <Version>2.2.3</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\Bin\netstandard\Release</OutputPath>
@@ -12,7 +12,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Practices.IoC" Version="2.2.2" />
+    <PackageReference Include="LogoFX.Practices.IoC" Version="2.2.3" />
     <PackageReference Include="Solid.Bootstrapping" Version="2.3.2" />
     <PackageReference Include="Solid.Extensibility" Version="2.3.2" />
   </ItemGroup>
