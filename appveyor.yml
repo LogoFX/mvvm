@@ -22,7 +22,7 @@ artifacts:
 - name: Packages
   path: ./output/*.nupkg
 - name: Model Living Documentation
-  path: ./src/LogoFX.Client.Mvvm.Model.Specs/bin/LivingDoc.html
+  path: ./src/LogoFX.Client.Mvvm.Model.Specs/bin/Release/LivingDoc.html
 # restore when specs cease to be flaky
 # - name: View Model Extensions Living Documentation
 #   path: ./src/LogoFX.Client.Mvvm.ViewModel.Extensions.Specs/bin/LivingDoc.html
