@@ -53,13 +53,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Core.Platform\netframework\LogoFX.Client.Mvvm.Core.Platform.NETFramework.csproj">
+      <Project>{bd03b159-9c44-4e27-961b-97a63e383fef}</Project>
+      <Name>LogoFX.Client.Mvvm.Core.Platform.NETFramework</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel\LogoFX.Client.Mvvm.ViewModel.csproj">
       <Project>{71e80e75-ac32-48f9-8211-204631c719b5}</Project>
       <Name>LogoFX.Client.Mvvm.ViewModel</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Mvvm.Core"  Version="2.2.2" />    
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

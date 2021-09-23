@@ -5,7 +5,7 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>LogoFX.Client.Mvvm.View.Platform</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.View</RootNamespace>
-    <Version>2.2.2</Version>
+    <Version>2.2.3</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>TRACE;NET</DefineConstants>
@@ -98,7 +98,7 @@
     <Folder Include="TriggerActions\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.2" />
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.View\LogoFX.Client.Mvvm.View.csproj" />

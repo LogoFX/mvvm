@@ -5,7 +5,7 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>LogoFX.Client.Mvvm.Core.Platform</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.Core</RootNamespace>
-    <Version>2.2.2</Version>
+    <Version>2.2.3</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\Bin\net\Release\</OutputPath>
@@ -20,6 +20,6 @@
     <Compile Include="..\src\NotificationHelperDp.cs" Link="NotificationHelperDp.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Core" Version="2.2.2" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.3" />
   </ItemGroup>
 </Project>
