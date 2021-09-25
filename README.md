@@ -24,7 +24,7 @@ Model objects with various aspects, including property change notification, hier
 
 <img src=https://img.shields.io/nuget/dt/LogoFX.Client.Mvvm.Model>
 
-[Living documentation](https://ci.appveyor.com/api/projects/LogoFX/mvvm/artifacts/src/LogoFX.Client.Mvvm.Model.Specs/bin/LivingDoc.html)
+[Living documentation](https://ci.appveyor.com/api/projects/LogoFX/mvvm/artifacts/output/LogoFX.Client.Mvvm.Model.Specs.LivingDoc.html)
 
 [Get package](https://www.nuget.org/packages/LogoFX.Client.Mvvm.Model/)
 
