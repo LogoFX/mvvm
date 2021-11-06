@@ -1,4 +1,4 @@
-version: 2.2.3.{build}
+version: 2.2.4.{build}
 init:
 - dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 configuration: Release
@@ -23,7 +23,4 @@ artifacts:
   path: ./output/*.nupkg
 - name: Model Living Documentation
   path: ./output/LogoFX.Client.Mvvm.Model.Specs.LivingDoc.html
-# restore when specs cease to be flaky
-# - name: View Model Extensions Living Documentation
-#   path: ./src/LogoFX.Client.Mvvm.ViewModel.Extensions.Specs/bin/LivingDoc.html
 ...
