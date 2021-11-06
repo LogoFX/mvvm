@@ -75,8 +75,8 @@
     <PackageReference Include="Expression.Blend.Sdk">
       <Version>1.0.2</Version>
     </PackageReference>
-    <PackageReference Include="LogoFX.Client.Core" Version="2.2.3" />
-    <PackageReference Include="LogoFX.Core" Version="2.2.3" />
+    <PackageReference Include="LogoFX.Client.Core" Version="2.2.4" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.4" />
     <PackageReference Include="Solid.Bootstrapping">
       <Version>2.3.2</Version>
     </PackageReference>

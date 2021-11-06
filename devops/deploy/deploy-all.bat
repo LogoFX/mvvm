@@ -1,5 +1,5 @@
 rem TODO: Use common source for all version instances
-SET version=2.2.3
+SET version=2.2.4
 rem TODO: Refactor using loop and automatic discovery
 call deploy-single.bat LogoFX.Client.Mvvm.Core %version% 
 call deploy-single.bat LogoFX.Client.Mvvm.Commanding.Core %version% 
