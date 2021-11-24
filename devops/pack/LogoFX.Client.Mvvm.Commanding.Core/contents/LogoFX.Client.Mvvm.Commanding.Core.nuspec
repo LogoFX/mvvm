@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>LogoFX.Client.Mvvm.Commanding.Core</id>
-    <version>2.2.4</version>
+    <version>2.2.5-rc1</version>
     <title>LogoFX.Client.Mvvm.Commanding.Core</title>
     <authors>Gennady Verdel, Vlad Spivak</authors>
     <owners>Gennady Verdel</owners>
@@ -14,7 +14,7 @@
     <summary>LogoFX Client Mvvm Commanding containing implementation of ICommand with Fluent API.</summary>
     <releaseNotes>Using System.Reactive.Linq 5</releaseNotes>
     <dependencies>
-      <dependency id="LogoFX.Client.Core.Core" version="2.2.4" />
+      <dependency id="LogoFX.Client.Core.Core" version="2.2.5-rc1" />
       <dependency id="System.Reactive.Linq" version="5.0.0" />
     </dependencies>
     <tags>framework logofx dotnet</tags>

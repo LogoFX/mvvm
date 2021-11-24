@@ -3,7 +3,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <UseWPF>true</UseWPF>
-    <Version>2.2.4</Version>
+    <Version>2.2.5</Version>
     <AssemblyName>LogoFX.Client.Mvvm.Commanding.Platform</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.Commanding</RootNamespace>
   </PropertyGroup>
@@ -31,8 +31,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Expression.Blend.Sdk" Version="1.0.2" />
-    <PackageReference Include="LogoFX.Client.Core" Version="2.2.4" />
-    <PackageReference Include="Solid.Bootstrapping" Version="2.3.2" />
+    <PackageReference Include="LogoFX.Client.Core" Version="2.2.5-rc1" />
+    <PackageReference Include="Solid.Bootstrapping" Version="2.3.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.Commanding\LogoFX.Client.Mvvm.Commanding.csproj" />

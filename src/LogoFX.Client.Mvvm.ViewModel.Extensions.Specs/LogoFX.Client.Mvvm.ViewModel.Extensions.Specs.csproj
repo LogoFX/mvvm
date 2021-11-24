@@ -12,24 +12,24 @@
     <Compile Include="..\LogoFX.Client.Mvvm.ViewModel.Extensions.Tests\SimpleEditableModel.cs" Link="Model\SimpleEditableModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.2" />
+    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.3" />
     <PackageReference Include="FluentAssertions" Version="6.1.0" />
     <PackageReference Include="JetBrains.Annotations" Version="2021.3.0" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.4" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer" Version="2.2.4" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping.Testing" Version="2.2.4" />
-    <PackageReference Include="LogoFX.Client.Tests.Shared" Version="2.2.4" />
-    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.4" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.5-rc1" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer" Version="2.2.5-rc1" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping.Testing" Version="2.2.5-rc1" />
+    <PackageReference Include="LogoFX.Client.Tests.Shared" Version="2.2.5-rc1" />
+    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.5-rc1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SpecFlow" Version="3.9.22" />
+    <PackageReference Include="SpecFlow" Version="3.9.40" />
     <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.22" />
-    <PackageReference Include="SpecFlow.xUnit" Version="3.9.22" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.40" />
+    <PackageReference Include="SpecFlow.xUnit" Version="3.9.40" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LogoFX.Client.Mvvm.Model\LogoFX.Client.Mvvm.Model.csproj" />

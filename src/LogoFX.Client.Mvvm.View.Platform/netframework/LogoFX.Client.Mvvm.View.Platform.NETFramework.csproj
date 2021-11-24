@@ -256,7 +256,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.4" />   
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.5-rc1" />   
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.View\LogoFX.Client.Mvvm.View.csproj">
