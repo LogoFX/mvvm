@@ -1,4 +1,4 @@
-using LogoFX.Client.Core;
+using LogoFX.Core;
 
 namespace LogoFX.Client.Mvvm.Model
 {

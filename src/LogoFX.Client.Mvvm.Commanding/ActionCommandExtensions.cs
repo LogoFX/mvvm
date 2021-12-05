@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Reactive.Linq;
 using System.Windows.Input;
-using LogoFX.Client.Core;
+using LogoFX.Core;
 
 namespace LogoFX.Client.Mvvm.Commanding
 {

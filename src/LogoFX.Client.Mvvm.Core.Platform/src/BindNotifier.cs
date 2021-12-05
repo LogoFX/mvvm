@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 #if NET || NETCORE || NETFRAMEWORK
-using System.Windows;
 using System.Windows.Data;
 #endif
 #if NETFX_CORE

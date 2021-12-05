@@ -1,7 +1,7 @@
 ﻿#if NET || NETCORE || NETFRAMEWORK
 using System;
-using LogoFX.Client.Core;
 using LogoFX.Client.Mvvm.View.Localization;
+using LogoFX.Core;
 
 namespace LogoFX.Client.Mvvm.View.MarkupExtensions
 {
