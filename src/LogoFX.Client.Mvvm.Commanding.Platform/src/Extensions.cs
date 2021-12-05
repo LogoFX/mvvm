@@ -1,6 +1,5 @@
 ﻿using Solid.Bootstrapping;
 using Solid.Extensibility;
-using Solid.Practices.Middleware;
 
 namespace LogoFX.Client.Mvvm.Commanding
 {

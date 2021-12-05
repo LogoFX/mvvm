@@ -5,7 +5,6 @@ using System.Windows.Data;
 #endif
 #if NETFX_CORE
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
 #endif
 
 namespace LogoFX.Client.Mvvm.Core

@@ -62,11 +62,11 @@
       <Name>LogoFX.Client.Mvvm.Core.Platform.NETFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Extensions.Platform\netframework\LogoFX.Client.Mvvm.ViewModel.Extensions.Platform.NETFramework.csproj">
-      <Project>{f7e89e24-85a4-4b72-b726-af623a039e3d}</Project>
+      <Project>{F7E89E24-85A4-4B72-B726-AF623A039E3D}</Project>
       <Name>LogoFX.Client.Mvvm.ViewModel.Extensions.Platform.NETFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.ViewModel.Extensions\LogoFX.Client.Mvvm.ViewModel.Extensions.csproj">
-      <Project>{da4a44fa-f705-47b6-b1b5-15bd8f80d811}</Project>
+      <Project>{DA4A44FA-F705-47B6-B1B5-15BD8F80D811}</Project>
       <Name>LogoFX.Client.Mvvm.ViewModel.Extensions</Name>
     </ProjectReference>
   </ItemGroup>

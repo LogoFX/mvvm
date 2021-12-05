@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq.Expressions;
 using LogoFX.Client.Core;
 using LogoFX.Client.Mvvm.ViewModel.Contracts;
+using LogoFX.Core;
 
 namespace LogoFX.Client.Mvvm.ViewModel
 {
