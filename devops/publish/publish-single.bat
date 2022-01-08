@@ -1,5 +1,5 @@
 SET package_name=%1
-SET package_version=2.2.5
+SET package_version=2.2.6-rc1
 SET target=../../../../packages/Tests-All
 cd ../build
 call build-all

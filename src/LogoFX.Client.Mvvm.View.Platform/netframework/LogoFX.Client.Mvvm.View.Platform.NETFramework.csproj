@@ -126,7 +126,7 @@
     <Compile Include="..\src\Converters\ObjectToImageConverter.cs">
       <Link>Converters\ObjectToImageConverter.cs</Link>
     </Compile>
-     <Compile Include="..\src\Converters\ImageGet.cs">
+    <Compile Include="..\src\Converters\ImageGet.cs">
       <Link>Converters\ImageGet.cs</Link>
     </Compile>
     <Compile Include="..\src\Converters\IntervalConverter.cs">
@@ -256,7 +256,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.5" />   
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.6-rc1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.View\LogoFX.Client.Mvvm.View.csproj">
