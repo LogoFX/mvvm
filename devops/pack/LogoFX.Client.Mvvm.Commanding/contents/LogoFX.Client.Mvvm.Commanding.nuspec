@@ -15,9 +15,9 @@
     <releaseNotes>Added support for .NET Core</releaseNotes>
     <dependencies>
       <group>
-        <dependency id="Solid.Practices.Middleware" version="2.3.3" />
-        <dependency id="Solid.Bootstrapping" version="2.3.3" />
-        <dependency id="Solid.Extensibility" version="2.3.3" />
+        <dependency id="Solid.Practices.Middleware" version="2.3.4" />
+        <dependency id="Solid.Bootstrapping" version="2.3.4" />
+        <dependency id="Solid.Extensibility" version="2.3.4" />
         <dependency id="LogoFX.Client.Core" version="2.2.6-rc1" />
         <dependency id="LogoFX.Client.Mvvm.Core" version="2.2.6-rc1" />
         <dependency id="LogoFX.Client.Mvvm.Commanding.Core" version="2.2.6-rc1" />

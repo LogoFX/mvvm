@@ -145,13 +145,13 @@
       <Version>2.0.1</Version>
     </PackageReference>
     <PackageReference Include="Solid.Bootstrapping">
-      <Version>2.3.3</Version>
+      <Version>2.3.4</Version>
     </PackageReference>
     <PackageReference Include="Solid.Extensibility">
-      <Version>2.3.3</Version>
+      <Version>2.3.4</Version>
     </PackageReference>
     <PackageReference Include="Solid.Practices.Middleware">
-      <Version>2.3.3</Version>
+      <Version>2.3.4</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

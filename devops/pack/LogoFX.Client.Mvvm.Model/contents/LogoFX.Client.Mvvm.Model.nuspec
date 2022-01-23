@@ -16,8 +16,8 @@ model layer objects facilitating development by MVVM pattern</description>
 model layer objects facilitating development by MVVM pattern</summary>
     <releaseNotes>Added SetProperty with options parameter</releaseNotes>
     <dependencies>
-      <dependency id="Solid.Patterns.Memento" version="2.3.3" />
-      <dependency id="Solid.Patterns.ChainOfResponsibility" version="2.3.3" />
+      <dependency id="Solid.Patterns.Memento" version="2.3.4" />
+      <dependency id="Solid.Patterns.ChainOfResponsibility" version="2.3.4" />
       <dependency id="LogoFX.Core" version="2.2.6-rc1" />
       <dependency id="LogoFX.Client.Core.Core" version="2.2.6-rc1" />
       <dependency id="System.ComponentModel.Annotations" version="5.0.0" />
