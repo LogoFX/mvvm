@@ -21,10 +21,7 @@
         <dependency id="LogoFX.Client.Core" version="2.2.6-rc1" />
         <dependency id="LogoFX.Client.Mvvm.Core" version="2.2.6-rc1" />
         <dependency id="LogoFX.Client.Mvvm.Commanding.Core" version="2.2.6-rc1" />
-      </group>
-      <group targetFramework="UAP10.0">
-        <dependency id="Microsoft.Xaml.Behaviors.Uwp.Managed" version="2.0.1" />
-      </group>
+      </group>      
     </dependencies>
     <tags>framework logofx dotnet</tags>
     <repository type="Open Source" url="https://github.com/LogoFX/mvvm" />
