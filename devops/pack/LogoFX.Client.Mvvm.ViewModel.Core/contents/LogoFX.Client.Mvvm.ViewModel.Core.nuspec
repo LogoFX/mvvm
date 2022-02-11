@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>LogoFX.Client.Mvvm.ViewModel.Core</id>
-    <version>2.2.6-rc1</version>
+    <version>2.2.6-rc2</version>
     <title>LogoFX.Client.Mvvm.ViewModel.Core</title>
     <authors>Gennady Verdel, David Kossoglyad, Vlad Spivak, Dmitry Bublik</authors>
     <owners>Gennady Verdel</owners>
@@ -14,9 +14,9 @@
     <summary>LogoFX Client Mvvm ViewModel Core containing core view model layer objects facilitating development by MVVM pattern</summary>
     <releaseNotes>Updated dependent packages</releaseNotes>
     <dependencies>
-      <dependency id="LogoFX.Core" version="2.2.6-rc1" />
-      <dependency id="LogoFX.Client.Core.Core" version="2.2.6-rc1" />
-      <dependency id="LogoFX.Client.Mvvm.ViewModel.Contracts" version="2.2.6-rc1" />
+      <dependency id="LogoFX.Core" version="2.2.6-rc2" />
+      <dependency id="LogoFX.Client.Core.Core" version="2.2.6-rc2" />
+      <dependency id="LogoFX.Client.Mvvm.ViewModel.Contracts" version="2.2.6-rc2" />
     </dependencies>
     <tags>framework logofx dotnet</tags>
     <repository type="Open Source" url="https://github.com/LogoFX/mvvm" />
