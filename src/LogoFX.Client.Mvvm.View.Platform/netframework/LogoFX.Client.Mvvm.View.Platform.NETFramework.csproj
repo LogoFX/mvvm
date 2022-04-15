@@ -256,13 +256,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.6" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Mvvm.View\LogoFX.Client.Mvvm.View.csproj">
       <Project>{5f9a6a47-32f3-4021-8fb3-bf1cda0017d3}</Project>
       <Name>LogoFX.Client.Mvvm.View</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Client.Core.Core">
+      <Version>2.2.6</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
