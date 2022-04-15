@@ -20,6 +20,6 @@
     <Compile Include="..\src\NotificationHelperDp.cs" Link="NotificationHelperDp.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Core" Version="2.2.6-rc2" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.6" />
   </ItemGroup>
 </Project>
