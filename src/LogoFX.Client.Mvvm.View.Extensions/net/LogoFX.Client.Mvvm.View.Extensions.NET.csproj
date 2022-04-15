@@ -5,7 +5,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblyName>LogoFX.Client.Mvvm.View.Extensions</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.View.Extensions</RootNamespace>
-    <Version>2.2.5</Version>
+    <Version>2.2.6</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\Bin\net\Release\</OutputPath>

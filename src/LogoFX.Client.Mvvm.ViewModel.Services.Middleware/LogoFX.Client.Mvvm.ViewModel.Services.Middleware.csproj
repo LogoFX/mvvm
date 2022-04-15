@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <Version>2.2.5</Version>
+    <Version>2.2.6</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\Bin\netstandard\Release</OutputPath>
@@ -12,7 +12,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Solid.Bootstrapping" Version="2.3.3" />
+    <PackageReference Include="Solid.Bootstrapping" Version="2.3.5" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LogoFX.Client.Mvvm.ViewModel.Services\LogoFX.Client.Mvvm.ViewModel.Services.csproj" />

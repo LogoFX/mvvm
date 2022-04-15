@@ -5,7 +5,7 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>LogoFX.Client.Mvvm.ViewModel.Platform</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.ViewModel</RootNamespace>
-    <Version>2.2.5</Version>
+    <Version>2.2.6</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\Bin\netcore\Release\</OutputPath>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>LogoFX.Client.Mvvm.Commanding</id>
-    <version>2.2.5</version>
+    <version>2.2.6</version>
     <title>LogoFX.Client.Mvvm.Commanding</title>
     <authors>Gennady Verdel, Vlad Spivak</authors>
     <owners>Gennady Verdel</owners>
@@ -15,16 +15,13 @@
     <releaseNotes>Added support for .NET Core</releaseNotes>
     <dependencies>
       <group>
-        <dependency id="Solid.Practices.Middleware" version="2.3.3" />
-        <dependency id="Solid.Bootstrapping" version="2.3.3" />
-        <dependency id="Solid.Extensibility" version="2.3.3" />
-        <dependency id="LogoFX.Client.Core" version="2.2.5" />
-        <dependency id="LogoFX.Client.Mvvm.Core" version="2.2.5" />
-        <dependency id="LogoFX.Client.Mvvm.Commanding.Core" version="2.2.5" />
-      </group>
-      <group targetFramework="UAP10.0">
-        <dependency id="Microsoft.Xaml.Behaviors.Uwp.Managed" version="2.0.1" />
-      </group>
+        <dependency id="Solid.Practices.Middleware" version="2.3.5" />
+        <dependency id="Solid.Bootstrapping" version="2.3.5" />
+        <dependency id="Solid.Extensibility" version="2.3.5" />
+        <dependency id="LogoFX.Client.Core" version="2.2.6" />
+        <dependency id="LogoFX.Client.Mvvm.Core" version="2.2.6" />
+        <dependency id="LogoFX.Client.Mvvm.Commanding.Core" version="2.2.6" />
+      </group>      
     </dependencies>
     <tags>framework logofx dotnet</tags>
     <repository type="Open Source" url="https://github.com/LogoFX/mvvm" />

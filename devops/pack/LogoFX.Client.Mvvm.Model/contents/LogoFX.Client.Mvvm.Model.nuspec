@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>LogoFX.Client.Mvvm.Model</id>
-    <version>2.2.5</version>
+    <version>2.2.6</version>
     <title>LogoFX.Client.Mvvm.Model</title>
     <authors>Gennady Verdel, Vlad Spivak, Dmitry Bublik, David Kossoglyad</authors>
     <owners>Gennady Verdel</owners>
@@ -16,10 +16,10 @@ model layer objects facilitating development by MVVM pattern</description>
 model layer objects facilitating development by MVVM pattern</summary>
     <releaseNotes>Added SetProperty with options parameter</releaseNotes>
     <dependencies>
-      <dependency id="Solid.Patterns.Memento" version="2.3.3" />
-      <dependency id="Solid.Patterns.ChainOfResponsibility" version="2.3.3" />
-      <dependency id="LogoFX.Core" version="2.2.5" />
-      <dependency id="LogoFX.Client.Core.Core" version="2.2.5" />
+      <dependency id="Solid.Patterns.Memento" version="2.3.5" />
+      <dependency id="Solid.Patterns.ChainOfResponsibility" version="2.3.5" />
+      <dependency id="LogoFX.Core" version="2.2.6" />
+      <dependency id="LogoFX.Client.Core.Core" version="2.2.6" />
       <dependency id="System.ComponentModel.Annotations" version="5.0.0" />
     </dependencies>
     <tags>framework logofx dotnet</tags>

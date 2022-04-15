@@ -17,8 +17,5 @@ mkdir netcoreapp3.1
 robocopy ../../../../../src/Bin/netcore/Release netcoreapp3.1 LogoFX.Client.Mvvm.ViewModel.Extensions.Platform.* /E
 robocopy ../../../../../src/lib/Caliburn.Micro/net45 netcoreapp3.1 Caliburn.Micro.Platform.* /E
 robocopy ../../../../../src/lib/Caliburn.Micro/net45 netcoreapp3.1 System.Windows.Interactivity.* /E
-mkdir uap10.0
-robocopy ../../../../../src/Bin/uwp/Release uap10.0 LogoFX.Client.Mvvm.ViewModel.Extensions.Platform.* /E
-robocopy ../../../../../src/lib/Caliburn.Micro/uap10.0 uap10.0 Caliburn.Micro.Platform.* /E
 cd ../../
 nuget pack contents/LogoFX.Client.Mvvm.ViewModel.Extensions.nuspec -OutputDirectory ../../../output
