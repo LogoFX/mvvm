@@ -12,8 +12,8 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.6" />
-    <PackageReference Include="LogoFX.Core" Version="2.2.6" />
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.7-rc1" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.7-rc1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LogoFX.Client.Mvvm.ViewModel.Contracts\LogoFX.Client.Mvvm.ViewModel.Contracts.csproj" />

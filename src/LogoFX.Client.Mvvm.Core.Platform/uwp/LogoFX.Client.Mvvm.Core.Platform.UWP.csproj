@@ -116,7 +116,7 @@
     <EmbeddedResource Include="Properties\LogoFX.Client.Mvvm.Core.Platform.UWP.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Core" Version="2.2.6" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.7-rc1" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.13</Version>
     </PackageReference>
