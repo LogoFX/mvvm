@@ -15,8 +15,8 @@
     <releaseNotes>
     </releaseNotes>
     <dependencies>
-      <dependency id="Solid.Bootstrapping" version="2.3.5" />
-      <dependency id="Solid.Extensibility" version="2.3.5" />
+      <dependency id="Solid.Bootstrapping" version="2.3.6-rc1" />
+      <dependency id="Solid.Extensibility" version="2.3.6-rc1" />
       <dependency id="LogoFX.Practices.IoC" version="2.2.7-rc1" />
       <dependency id="LogoFX.Client.Mvvm.ViewModelFactory" version="2.2.7-rc1" />
     </dependencies>

@@ -3,7 +3,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <UseWPF>true</UseWPF>
-    <Version>2.2.6</Version>
+    <Version>2.2.7</Version>
     <AssemblyName>LogoFX.Client.Mvvm.Commanding.Platform</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.Commanding</RootNamespace>
   </PropertyGroup>
