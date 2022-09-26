@@ -14,7 +14,7 @@
 model layer objects facilitating development by MVVM pattern</description>
     <summary>LogoFX Client Mvvm Model containing 
 model layer objects facilitating development by MVVM pattern</summary>
-    <releaseNotes>Added SetProperty with options parameter</releaseNotes>
+    <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="Solid.Patterns.Memento" version="2.3.6-rc1" />
       <dependency id="Solid.Patterns.ChainOfResponsibility" version="2.3.6-rc1" />

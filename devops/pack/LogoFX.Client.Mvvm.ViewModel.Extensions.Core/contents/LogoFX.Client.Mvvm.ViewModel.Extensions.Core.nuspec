@@ -14,7 +14,7 @@
 for the most common view models (including editing, paging and virtualization)</description>
     <summary>LogoFX Client Mvvm ViewModel Extensions Core containing various core use cases
 for the most common view models (including editing, paging and virtualization)</summary>
-    <releaseNotes>Updated dependent packages</releaseNotes>
+    <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="LogoFX.Core" version="2.2.7-rc1" />
       <dependency id="LogoFX.Client.Core.Core" version="2.2.7-rc1" />

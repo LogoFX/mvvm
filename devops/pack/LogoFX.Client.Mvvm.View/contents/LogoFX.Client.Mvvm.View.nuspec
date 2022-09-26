@@ -14,7 +14,7 @@
 view layer objects facilitating development by MVVM pattern</description>
     <summary>LogoFX Client Mvvm View containing 
 view layer objects facilitating development by MVVM pattern</summary>
-    <releaseNotes>Added support for .NET Core</releaseNotes>
+    <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="LogoFX.Client.Core.Core" version="2.2.7-rc1" />
       <dependency id="LogoFX.Client.Mvvm.View.Core" version="2.2.7-rc1" />

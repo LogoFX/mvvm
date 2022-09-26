@@ -12,7 +12,7 @@
     <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
     <description>LogoFX Client Mvvm ViewModel Core containing core view model layer objects facilitating development by MVVM pattern</description>
     <summary>LogoFX Client Mvvm ViewModel Core containing core view model layer objects facilitating development by MVVM pattern</summary>
-    <releaseNotes>Updated dependent packages</releaseNotes>
+    <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="LogoFX.Core" version="2.2.7-rc1" />
       <dependency id="LogoFX.Client.Core.Core" version="2.2.7-rc1" />

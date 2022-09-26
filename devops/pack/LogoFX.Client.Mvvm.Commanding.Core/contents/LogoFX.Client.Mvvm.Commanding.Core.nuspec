@@ -12,7 +12,7 @@
     <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
     <description>LogoFX Client Mvvm Commanding containing implementation of ICommand with Fluent API.</description>
     <summary>LogoFX Client Mvvm Commanding containing implementation of ICommand with Fluent API.</summary>
-    <releaseNotes>Using System.Reactive.Linq 5</releaseNotes>
+    <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="LogoFX.Client.Core.Core" version="2.2.7-rc1" />
       <dependency id="System.Reactive.Linq" version="5.0.0" />
