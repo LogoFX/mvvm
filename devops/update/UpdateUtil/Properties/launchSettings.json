@@ -2,7 +2,7 @@
   "profiles": {
     "UpdateUtil": {
       "commandName": "Project",
-      "commandLineArgs": "Solid 2.3.5"
+      "commandLineArgs": "Solid 2.3.6-rc1"
     }
   }
 }

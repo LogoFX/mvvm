@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <Version>2.2.6</Version>
+    <Version>2.2.7</Version>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>LogoFX.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
@@ -19,10 +19,10 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.6" />
-    <PackageReference Include="LogoFX.Core" Version="2.2.6" />
-    <PackageReference Include="Solid.Patterns.ChainOfResponsibility" Version="2.3.5" />
-    <PackageReference Include="Solid.Patterns.Memento" Version="2.3.5" />
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.7-rc1" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.7-rc1" />
+    <PackageReference Include="Solid.Patterns.ChainOfResponsibility" Version="2.3.6-rc1" />
+    <PackageReference Include="Solid.Patterns.Memento" Version="2.3.6-rc1" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
