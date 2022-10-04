@@ -6,11 +6,11 @@ mkdir net461
 robocopy ../../../../../src/Bin/netframework/Release net461 LogoFX.Client.Mvvm.View.Platform.* /E
 robocopy ../../../../../src/Lib net461 Microsoft.Expression.Interactions.* /E
 robocopy ../../../../../src/Lib net461 System.Windows.Interactivity.* /E
-mkdir net5.0
-robocopy ../../../../../src/Bin/net/Release net5.0 LogoFX.Client.Mvvm.View.Platform.* /E
-robocopy ../../../../../src/Lib net5.0 Microsoft.Expression.Interactions.* /E
-robocopy ../../../../../src/Lib net5.0 System.Windows.Interactivity.* /E
-cd net5.0
+mkdir net6.0
+robocopy ../../../../../src/Bin/net/Release net6.0 LogoFX.Client.Mvvm.View.Platform.* /E
+robocopy ../../../../../src/Lib net6.0 Microsoft.Expression.Interactions.* /E
+robocopy ../../../../../src/Lib net6.0 System.Windows.Interactivity.* /E
+cd net6.0
 rmdir /Q /S ref
 cd ..
 mkdir netcoreapp3.1
