@@ -136,22 +136,22 @@
     <EmbeddedResource Include="Properties\LogoFX.Client.Mvvm.Commanding.Platform.UWP.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core" Version="2.2.6" />
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.6" />
+    <PackageReference Include="LogoFX.Client.Core" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.7" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.2.13</Version>
+      <Version>6.2.14</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Xaml.Behaviors.Uwp.Managed">
       <Version>2.0.1</Version>
     </PackageReference>
     <PackageReference Include="Solid.Bootstrapping">
-      <Version>2.3.5</Version>
+      <Version>2.3.6</Version>
     </PackageReference>
     <PackageReference Include="Solid.Extensibility">
-      <Version>2.3.5</Version>
+      <Version>2.3.6</Version>
     </PackageReference>
     <PackageReference Include="Solid.Practices.Middleware">
-      <Version>2.3.5</Version>
+      <Version>2.3.6</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

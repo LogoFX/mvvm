@@ -78,7 +78,7 @@ namespace LogoFX.Client.Mvvm.ViewModel.Tests.WrappingCollectionTests
             wrappingCollection.AddSource(originalDataSource);
             wrappingCollection.AddSource(anotherDataSource);
 
-            wrappingCollection.Should().ContainItemsAssignableTo<TestViewModel>();            
+            wrappingCollection.Cast<object>().Should().AllBeAssignableTo<TestViewModel>();        
             var expectedModels = originalDataSource.Concat(anotherDataSource);
             wrappingCollection.OfType<TestViewModel>().Select(t => t.Model).Should().BeEquivalentTo(expectedModels);            
         }
@@ -97,7 +97,7 @@ namespace LogoFX.Client.Mvvm.ViewModel.Tests.WrappingCollectionTests
             wrappingCollection.AddSource(originalDataSource);
             wrappingCollection.RemoveSource(originalDataSource);
 
-            wrappingCollection.Should().BeEmpty();            
+            wrappingCollection.Cast<object>().Should().BeEmpty();   
         }
 
         [Theory]
@@ -114,7 +114,7 @@ namespace LogoFX.Client.Mvvm.ViewModel.Tests.WrappingCollectionTests
             wrappingCollection.AddSource(originalDataSource);
             wrappingCollection.ClearSources();
 
-            wrappingCollection.Should().BeEmpty();
+            wrappingCollection.Cast<object>().Should().BeEmpty();
         }
 
         [Theory]

@@ -12,10 +12,10 @@
     <PackageReference Include="FluentAssertions">
       <Version>5.10.3</Version>
     </PackageReference>
-    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.6" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer" Version="2.2.6" />    
-    <PackageReference Include="LogoFX.Client.Testing.Integration.xUnit" Version="2.2.6" />
-    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.6" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Testing.Integration.xUnit" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.7" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
     <PackageReference Include="xunit.core">
       <Version>2.4.1</Version>

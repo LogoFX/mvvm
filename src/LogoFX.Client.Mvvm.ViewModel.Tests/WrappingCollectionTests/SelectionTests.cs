@@ -283,7 +283,7 @@ namespace LogoFX.Client.Mvvm.ViewModel.Tests.WrappingCollectionTests
         private static void AssertEmptySelection(WrappingCollection.WithSelection wrappingCollection)
         {
             wrappingCollection.SelectedItem.Should().BeNull();
-            wrappingCollection.SelectedItems.Should().BeEmpty();
+            wrappingCollection.SelectedItems.Cast<object>().Should().BeEmpty();
             wrappingCollection.SelectionCount.Should().Be(0);            
         }
     }

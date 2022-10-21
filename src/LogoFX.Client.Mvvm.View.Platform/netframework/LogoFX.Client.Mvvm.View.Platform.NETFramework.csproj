@@ -263,7 +263,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="LogoFX.Client.Core.Core">
-      <Version>2.2.6</Version>
+      <Version>2.2.7</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
