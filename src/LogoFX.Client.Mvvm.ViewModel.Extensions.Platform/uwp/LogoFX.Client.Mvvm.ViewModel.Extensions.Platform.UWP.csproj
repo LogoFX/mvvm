@@ -185,7 +185,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Core" Version="2.2.7-rc1" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.7" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>

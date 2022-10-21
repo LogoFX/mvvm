@@ -12,14 +12,14 @@
     <Compile Include="..\LogoFX.Client.Mvvm.ViewModel.Extensions.Tests\SimpleEditableModel.cs" Link="Model\SimpleEditableModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.6-rc1" />
+    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.6" />
     <PackageReference Include="FluentAssertions" Version="6.7.0" />
     <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.7-rc1" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer" Version="2.2.7-rc1" />
-    <PackageReference Include="LogoFX.Client.Bootstrapping.Testing" Version="2.2.7-rc1" />
-    <PackageReference Include="LogoFX.Client.Tests.Shared" Version="2.2.7-rc1" />
-    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.7-rc1" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping.Adapters.SimpleContainer" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Bootstrapping.Testing" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Tests.Shared" Version="2.2.7" />
+    <PackageReference Include="LogoFX.Client.Tests.Shared.Caliburn.Micro" Version="2.2.7" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
